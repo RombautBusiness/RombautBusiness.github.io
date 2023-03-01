@@ -1,0 +1,2 @@
+- email aanpassen naar domeinnaam
+- Icoontje naar wens
