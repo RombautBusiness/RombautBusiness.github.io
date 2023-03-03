@@ -1,2 +1,4 @@
 - email aanpassen naar domeinnaam
 - Icoontje naar wens
+- Adres
+- Telefoonnummer
