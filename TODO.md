@@ -2,3 +2,4 @@
 - Icoontje naar wens
 - Adres
 - Telefoonnummer
+- Welke domeinnaam wenst u?

@@ -4,7 +4,6 @@ window.addEventListener("load", function () {
   if (form) {
     form.addEventListener("submit", function (event) {
       event.preventDefault();
-      ChangeInputs();
       const form = document.querySelector("form");
       sendData();
     });
