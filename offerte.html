@@ -80,7 +80,7 @@
       <div class="circle"></div>
     </div>
     <div class="section">
-      <h3 class="test-lg text-center">Offerteaanvraag</h3>
+      <h3 class="test-lg text-center">Persoonlijke gegevens</h3>
       <div class="container">
         <div class="row items-center v-t">
           <form
@@ -142,6 +142,106 @@
                   placeholder="Telefoon/Gsm-nummer"
                 />
               </div>
+              <div class="col-12 col-12-xsmall">
+                <h3 class="test-lg text-center">
+                  Gegevens van het te onderzoeken pand
+                </h3>
+              </div>
+              <div class="col-4 col-12-xsmall">
+                <input
+                  type="text"
+                  name="address_pand"
+                  id="address_pand"
+                  value=""
+                  placeholder="Adres pand"
+                />
+              </div>
+              <div class="col-4 col-12-xsmall">
+                <input
+                  type="text"
+                  name="postcode_pand"
+                  id="postcode_pand"
+                  value=""
+                  placeholder="Postcode pand"
+                />
+              </div>
+              <div class="col-4 col-12-xsmall">
+                <input
+                  type="text"
+                  name="plaats_pand"
+                  id="plaats_pand"
+                  value=""
+                  placeholder="Plaats pand"
+                />
+              </div>
+              <div class="col-4 col-12-xsmall">
+                <select name="soort_woning" id="soort_woning">
+                  <option value="" selected="true" disabled="true">
+                    Soort woning
+                  </option>
+                  <option value="Eensgezinswoning">Eensgezinswoning</option>
+                  <option value="Appartement">Appartement</option>
+                  <option value="Collectief woongebouw">
+                    Collectief woongebouw
+                  </option>
+                  <option value="Commerciëel pand">Commerciëel pand</option>
+                  <option value="Horeca">Horeca</option>
+                  <option value="Industriëel pand">Industriëel pand</option>
+                  <option value="Jeugdvereniging">Jeugdvereniging</option>
+                  <option value="Kantoor">Kantoor</option>
+                  <option value="Landbouw">Landbouw</option>
+                  <option value="Loggerfunctie">Loggerfunctie</option>
+                  <option value="Openbaar gebouw">Openbaar gebouw</option>
+                  <option value="Historisch gebouw">Historisch gebouw</option>
+                  <option value="Onderwijs">Onderwijs</option>
+                  <option value="Religie">Religie</option>
+                  <option value="Sport/recreatie">Sport/recreatie</option>
+                  <option value="Zorgverlening">Zorgverlening</option>
+                  <option value="Andere">Andere</option>
+                </select>
+              </div>
+              <div class="col-4 col-12-xsmall">
+                <select name="type_onderzoek" id="type_onderzoek">
+                  <option value="" selected="true" disabled="true">
+                    Type onderzoek
+                  </option>
+                  <option value="Destructief">Destructief</option>
+                  <option value="Niet-destructief">Niet-destructief</option>
+                </select>
+              </div>
+              <div class="col-4 col-12-xsmall">
+                <select
+                  name="gronplannen_beschikbaar"
+                  id="gronplannen_beschikbaar"
+                >
+                  <option value="" selected="true" disabled="true">
+                    Grondplannen beschikbaar
+                  </option>
+                  <option value="Ja">Ja</option>
+                  <option value="Nee">Nee</option>
+                </select>
+              </div>
+              <div class="col-6 col-12-xsmall">
+                <select
+                  name="bestaand_asbestonderzoek"
+                  id="bestaand_asbestonderzoek"
+                >
+                  <option value="" selected="true" disabled="true">
+                    Bestaand asbestonderzoek
+                  </option>
+                  <option value="Ja">Ja</option>
+                  <option value="Nee">Nee</option>
+                </select>
+              </div>
+              <div class="col-6 col-12-xsmall">
+                <select name="verbouwingen_na_2001" id="verbouwingen_na_2001">
+                  <option value="" selected="true" disabled="true">
+                    Verbouwingen na 2001
+                  </option>
+                  <option value="Ja">Ja</option>
+                  <option value="Nee">Nee</option>
+                </select>
+              </div>
               <div class="col-12">
                 <textarea
                   name="opmerkingen"
@@ -153,7 +253,7 @@
               <div class="col-12">
                 <ul class="actions">
                   <li>
-                    <input type="submit" value="Submit Form" class="primary" />
+                    <input type="submit" value="Versturen" class="primary" />
                   </li>
                   <li><input type="reset" value="Reset" /></li>
                 </ul>
