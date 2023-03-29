@@ -16,3 +16,11 @@ Gegevens omtrent het te onderzoeken pand:
 Test eens zoekresultaten
 
 ralphrombaut.be
+
+Eigenschappen pand:
+
+- Oppervlakte van het gebouw
+- Aantal bouwlagen
+- Kelder: ja of nee
+- Zolder: ja of nee
+- Zijn er bijgebouwen: ja of nee
